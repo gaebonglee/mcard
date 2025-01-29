@@ -1,26 +1,26 @@
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
-import styled from "@emotion/styled";
-import logo from "./logo.svg";
-import "./App.css";
+import { css } from '@emotion/react'
+import styled from '@emotion/styled'
+import logo from './logo.svg'
+import './App.css'
 
 const bold = css`
   font-weight: bold;
-`;
+`
 const Button = styled.button`
   width: 200px;
   height: 100px;
   ${bold}
-`;
+`
 const containerStyles = css`
   background-color: pink;
   ${bold}
-`;
+`
 
 function App() {
   return (
     <div css={containerStyles} className="App">
-      <Button>스타일 버튼</Button>
+      <Button> 스타일 버튼</Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -36,7 +36,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
