@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Global } from "@emotion/react";
 import globalStyles from "./styles/globalStyles";
 
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
