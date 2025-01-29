@@ -53,6 +53,7 @@
     ]
   },
   "devDependencies": {
-    "@emotion/babel-plugin": "^11.13.5"
+    "@emotion/babel-plugin": "^11.13.5",
+    "prettier": "^3.4.2"
   }
 }
